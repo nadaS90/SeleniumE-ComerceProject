@@ -36,9 +36,11 @@ public class RegistrationPage extends PageBase
     @FindBy(className = "result")
     public WebElement successMsg;
 
-    @FindBy(linkText = "Log out")
-    public
-    WebElement logoutLink ;
+    @FindBy(css="a.ico-logout")
+    public WebElement logoutLink ;
+
+    @FindBy(linkText = "My account")
+    public WebElement myAccountLink ;
 
 
 
@@ -57,4 +59,13 @@ public class RegistrationPage extends PageBase
     {
         clickBtn(logoutLink);
     }
+
+    public void userGoToMyAccount()
+    {
+        clickBtn(myAccountLink);
+    }
+
 }
+
+
+

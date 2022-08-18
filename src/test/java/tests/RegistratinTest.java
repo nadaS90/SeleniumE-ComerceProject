@@ -16,10 +16,11 @@ public class RegistratinTest extends TestBase{
     // always run priorty 1
     @Test(priority = 1, alwaysRun = true)
     public void registrationSuccess() {
+        // must create new instance that we have " deriver" that inhiret from testBse so we can use it
         homeObject = new HomePage(driver);
         homeObject.openRegistrationPage();
         rgstrObject = new RegistrationPage(driver);
-        rgstrObject.userRegistration("Nada", "sayed", "test2@example.com", "p@ssword");
+        rgstrObject.userRegistration("Nada", "sayed", "test0@example.com", "p@ssword");
 
         Assert.assertTrue(rgstrObject.successMsg.getText().contains("Your registration completed"));
 
@@ -33,10 +34,11 @@ public class RegistratinTest extends TestBase{
     }
 
     @Test(dependsOnMethods = {"registrationUserLogout"})
-    public void registrationUserLogin() {
+    public void registrationUserLogin() throws InterruptedException {
         homeObject.openLoginPage();
         loginOnject = new LoginPage(driver);
-        loginOnject.userLogin("test2@example.com", "p@ssword");
+        loginOnject.userLogin("test0@example.com", "p@ssword");
+        Thread.sleep(3000);
         Assert.assertTrue(rgstrObject.logoutLink.getText().contains("Log out"));
 
 

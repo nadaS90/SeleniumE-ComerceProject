@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +38,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/NADA-FWD/Moataz Nabil/Test+Automation+Framework+with+BDD/taf/pom.xml",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/NADA-FWD/Moataz Nabil/Test+Automation+Framework+with+BDD/taf/pom.xml&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NADA-FWD\Moataz Nabil\SeleniumE-ComerceProject\drivers" />
@@ -61,7 +56,7 @@
       <recent name="D:\NADA-FWD\Moataz Nabil\SeleniumE-ComerceProject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistratinTest.registrationUserLogout">
+  <component name="RunManager" selected="TestNG.MyAccountTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
@@ -70,15 +65,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/NADA-FWD/Moataz Nabil/SeleniumE-ComerceProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyAccountTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyAccountTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -178,35 +207,6 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistratinTest.registrationUserLogout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RegistratinTest" />
-      <option name="METHOD_NAME" value="registrationUserLogout" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -229,19 +229,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.MyAccountTest" />
+      <item itemvalue="TestNG.MyAccountTest (1)" />
       <item itemvalue="TestNG.RegistratinTest" />
       <item itemvalue="TestNG.RegistratinTest.registrationSuccess" />
       <item itemvalue="TestNG.RegistratinTest.registrationUserLogin" />
-      <item itemvalue="TestNG.RegistratinTest.registrationUserLogout" />
-      <item itemvalue="TestNG.D:/NADA-FWD/Moataz Nabil/SeleniumE-ComerceProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistratinTest.registrationUserLogout" />
-        <item itemvalue="TestNG.RegistratinTest.registrationUserLogin" />
-        <item itemvalue="TestNG.RegistratinTest.registrationSuccess" />
+        <item itemvalue="TestNG.MyAccountTest" />
         <item itemvalue="TestNG.RegistratinTest" />
-        <item itemvalue="TestNG.D:/NADA-FWD/Moataz Nabil/SeleniumE-ComerceProject/testng.xml" />
+        <item itemvalue="TestNG.RegistratinTest.registrationSuccess" />
+        <item itemvalue="TestNG.RegistratinTest.registrationUserLogin" />
+        <item itemvalue="TestNG.MyAccountTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +255,7 @@
       <updated>1660651465991</updated>
       <workItem from="1660651551166" duration="8251000" />
       <workItem from="1660740602721" duration="16074000" />
+      <workItem from="1660805574590" duration="11873000" />
     </task>
     <servers />
   </component>
