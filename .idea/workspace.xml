@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchItemWithAutoCompleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ContactUsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchItmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchItmPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchItmPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchItmPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PageBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +61,41 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchItemWithAutoCompleteTest">
+  <component name="RunManager" selected="TestNG.ContactUsTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContactUsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -179,34 +210,6 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryToLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryToLogin" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -229,19 +232,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.ContactUsTest" />
       <item itemvalue="TestNG.TryMyAccountTest" />
       <item itemvalue="TestNG.SearchItemTest" />
       <item itemvalue="TestNG.SearchItemWithAutoCompleteTest" />
-      <item itemvalue="TestNG.TryToLogin" />
       <item itemvalue="TestNG.RegistratinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactUsTest" />
         <item itemvalue="TestNG.SearchItemWithAutoCompleteTest" />
         <item itemvalue="TestNG.SearchItemTest" />
         <item itemvalue="TestNG.RegistratinTest" />
         <item itemvalue="TestNG.TryMyAccountTest" />
-        <item itemvalue="TestNG.TryToLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,7 @@
       <workItem from="1660651551166" duration="8251000" />
       <workItem from="1660740602721" duration="16074000" />
       <workItem from="1660805574590" duration="11873000" />
-      <workItem from="1660903919678" duration="8350000" />
+      <workItem from="1660903919678" duration="11119000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
       <created>1660833380376</created>
@@ -279,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660913962558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add search item with auto complete feature">
+      <created>1660915464609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660915464609</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,17 +299,7 @@
     <MESSAGE value="Add screenshots on failure TCs" />
     <MESSAGE value="Fix login page issue when the execution finish assertion was not executed, fixed" />
     <MESSAGE value="Add search item Seature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add search item Seature" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/PageBase.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add search item with auto complete feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search item with auto complete feature" />
   </component>
 </project>

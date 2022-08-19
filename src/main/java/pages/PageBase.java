@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +11,7 @@ public class PageBase
     // first page to be created in java main contain driver webElm / constructor / shortcut for any action related to this package " page "
 
     protected WebDriver drvier ;
+    public JavascriptExecutor jse;
 
     //Create constructor
     // initialize the instance and set default values
@@ -31,6 +33,12 @@ public class PageBase
     protected static void sendText(WebElement textElm, String value)
     {
         textElm.sendKeys(value);
+    }
+
+    public void scrollPageToBottom()
+    {
+        // this code will let us scroll to the buttom of the page
+        jse.executeScript("scrollBy(0,2500)");
     }
 
 }
