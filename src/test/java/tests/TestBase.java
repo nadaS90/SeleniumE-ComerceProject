@@ -6,10 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+import utilities.Helper;
 
 
 public class TestBase
@@ -57,5 +56,17 @@ public class TestBase
     {
         driver.quit();
     }
+    // return with Tc status pass or fail
+    @AfterMethod
+    public void takeScreenshotOnFailure(ITestResult result)
+    {
+        if(result.getStatus() == ITestResult.FAILURE)
+        {
+            System.out.println("We have Failed TC");
+            System.out.println("We Took screenshot");
+            Helper.failureScreenSoot(driver,result.getName());
+        }
+    }
+
 
 }

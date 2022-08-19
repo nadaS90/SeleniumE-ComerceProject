@@ -20,7 +20,7 @@ public class RegistratinTest extends TestBase{
         homeObject = new HomePage(driver);
         homeObject.openRegistrationPage();
         rgstrObject = new RegistrationPage(driver);
-        rgstrObject.userRegistration("Nada", "sayed", "test0@example.com", "p@ssword");
+        rgstrObject.userRegistration("Nada", "sayed", "test126@gmail.com", "12345678");;
 
         Assert.assertTrue(rgstrObject.successMsg.getText().contains("Your registration completed"));
 
@@ -34,13 +34,10 @@ public class RegistratinTest extends TestBase{
     }
 
     @Test(dependsOnMethods = {"registrationUserLogout"})
-    public void registrationUserLogin() throws InterruptedException {
+    public void registrationUserLogin() {
         homeObject.openLoginPage();
         loginOnject = new LoginPage(driver);
-        loginOnject.userLogin("test0@example.com", "p@ssword");
-        Thread.sleep(3000);
+        loginOnject.userLogin("test126@gmail.com", "12345678");
         Assert.assertTrue(rgstrObject.logoutLink.getText().contains("Log out"));
-
-
     }
 }

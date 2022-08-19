@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MyAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MyAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MyAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/RegistratinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/RegistratinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/NADA-FWD/Moataz Nabil/Test+Automation+Framework+with+BDD/taf/pom.xml&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -56,7 +63,7 @@
       <recent name="D:\NADA-FWD\Moataz Nabil\SeleniumE-ComerceProject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MyAccountTest">
+  <component name="RunManager" selected="TestNG.RegistratinTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
@@ -65,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -178,7 +185,7 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistratinTest.registrationUserLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryToLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -190,10 +197,9 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RegistratinTest" />
-      <option name="METHOD_NAME" value="registrationUserLogin" />
+      <option name="MAIN_CLASS_NAME" value="tests.TryToLogin" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -229,19 +235,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.TryMyAccountTest" />
+      <item itemvalue="TestNG.TryToLogin" />
       <item itemvalue="TestNG.MyAccountTest" />
-      <item itemvalue="TestNG.MyAccountTest (1)" />
       <item itemvalue="TestNG.RegistratinTest" />
       <item itemvalue="TestNG.RegistratinTest.registrationSuccess" />
-      <item itemvalue="TestNG.RegistratinTest.registrationUserLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MyAccountTest" />
         <item itemvalue="TestNG.RegistratinTest" />
+        <item itemvalue="TestNG.TryMyAccountTest" />
+        <item itemvalue="TestNG.TryToLogin" />
+        <item itemvalue="TestNG.MyAccountTest" />
         <item itemvalue="TestNG.RegistratinTest.registrationSuccess" />
-        <item itemvalue="TestNG.RegistratinTest.registrationUserLogin" />
-        <item itemvalue="TestNG.MyAccountTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,11 +262,24 @@
       <workItem from="1660651551166" duration="8251000" />
       <workItem from="1660740602721" duration="16074000" />
       <workItem from="1660805574590" duration="11873000" />
+      <workItem from="1660903919678" duration="2609000" />
     </task>
+    <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
+      <created>1660833380376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660833380376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add screenshots on failure TCs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add screenshots on failure TCs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
