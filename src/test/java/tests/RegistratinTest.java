@@ -15,7 +15,8 @@ public class RegistratinTest extends TestBase{
 
     // always run priorty 1
     @Test(priority = 1, alwaysRun = true)
-    public void registrationSuccess() {
+    public void registrationSuccess()
+    {
         // must create new instance that we have " deriver" that inhiret from testBse so we can use it
         homeObject = new HomePage(driver);
         homeObject.openRegistrationPage();
@@ -34,10 +35,14 @@ public class RegistratinTest extends TestBase{
     }
 
     @Test(dependsOnMethods = {"registrationUserLogout"})
-    public void registrationUserLogin() {
+    public void registrationUserLogin()
+    {
         homeObject.openLoginPage();
         loginOnject = new LoginPage(driver);
         loginOnject.userLogin("test126@gmail.com", "12345678");
         Assert.assertTrue(rgstrObject.logoutLink.getText().contains("Log out"));
     }
+
+
+
 }
