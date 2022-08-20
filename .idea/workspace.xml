@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailProductToFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/EmailProductToFriendTest.java" afterDir="false" />
+    <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="commit missed features">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeCurrencyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +60,41 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EmailProductToFriendTest">
+  <component name="RunManager" selected="TestNG.ChangeCurrencyTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ChangeCurrencyTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -109,34 +138,6 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.EmailProductToFriendTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistratinTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.RegistratinTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -230,19 +231,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.ChangeCurrencyTest" />
       <item itemvalue="TestNG.EmailProductToFriendTest" />
       <item itemvalue="TestNG.ContactUsTest" />
       <item itemvalue="TestNG.SearchItemTest" />
       <item itemvalue="TestNG.SearchItemWithAutoCompleteTest" />
-      <item itemvalue="TestNG.RegistratinTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ChangeCurrencyTest" />
         <item itemvalue="TestNG.EmailProductToFriendTest" />
         <item itemvalue="TestNG.ContactUsTest" />
         <item itemvalue="TestNG.SearchItemWithAutoCompleteTest" />
         <item itemvalue="TestNG.SearchItemTest" />
-        <item itemvalue="TestNG.RegistratinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,7 @@
       <workItem from="1660740602721" duration="16074000" />
       <workItem from="1660805574590" duration="11873000" />
       <workItem from="1660903919678" duration="11119000" />
-      <workItem from="1660997019930" duration="4700000" />
+      <workItem from="1660997019930" duration="7534000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
       <created>1660833380376</created>
@@ -288,17 +289,44 @@
       <option name="project" value="LOCAL" />
       <updated>1660915464609</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add email a friend feature, where user can send a product to other persons">
+      <created>1661001980464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661001980464</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit missed features">
+      <created>1661002053780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661002053780</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add screenshots on failure TCs" />
     <MESSAGE value="Fix login page issue when the execution finish assertion was not executed, fixed" />
     <MESSAGE value="Add search item Seature" />
     <MESSAGE value="Add search item with auto complete feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add search item with auto complete feature" />
+    <MESSAGE value="Add email a friend feature, where user can send a product to other persons" />
+    <MESSAGE value="commit missed features" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit missed features" />
   </component>
 </project>

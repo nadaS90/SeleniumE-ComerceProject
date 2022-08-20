@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class PageBase
 {
@@ -12,7 +13,7 @@ public class PageBase
 
     protected WebDriver drvier ;
     public JavascriptExecutor jse;
-
+    public Select select;
     //Create constructor
     // initialize the instance and set default values
     public PageBase(WebDriver driver)
@@ -40,5 +41,6 @@ public class PageBase
         // this code will let us scroll to the buttom of the page
         jse.executeScript("scrollBy(0,2500)");
     }
+
 
 }

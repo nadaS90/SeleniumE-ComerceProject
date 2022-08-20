@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 
 public class HomePage extends PageBase
@@ -26,6 +27,9 @@ public class HomePage extends PageBase
         @FindBy (linkText = "Contact us")
         WebElement contactUsLink;
 
+    @FindBy(id = "customerCurrency")
+    public WebElement changeCurncy;
+
 
 
 
@@ -45,6 +49,12 @@ public class HomePage extends PageBase
             scrollPageToBottom();
             clickBtn(contactUsLink);
         }
+
+    public void changeCrncy()
+    {
+        select = new Select(changeCurncy);
+        select.selectByVisibleText("Euro");
+    }
 
 
 }

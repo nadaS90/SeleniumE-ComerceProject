@@ -16,6 +16,9 @@ public class ItemsDetailsPage extends PageBase{
     @FindBy(css = "div.email-a-friend")
     public WebElement emailAFriend;
 
+    @FindBy(id = "price-value-4")
+    public WebElement crncyType;
+
 
     public void emailProductToAFriend()
     {

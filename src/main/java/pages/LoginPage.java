@@ -20,12 +20,16 @@ public class LoginPage extends PageBase
         @FindBy(css="button.login-button")
         WebElement loginBtn ;
 
+
+
         public void userLogin(String email , String password)
         {
             sendText(emailTxtBox, email);
             sendText(pswrdTxtBox, password);
             clickBtn(loginBtn);
         }
+
+
 
 
 
