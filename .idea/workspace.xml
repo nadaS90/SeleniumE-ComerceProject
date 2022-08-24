@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="commit missed features">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeCurrencyTest.java" afterDir="false" />
+    <list default="true" id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="Add change currency feature">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductReviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ProductReviewPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChangeCurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ChangeCurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EmailProductToFriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EmailProductToFriendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +260,7 @@
       <workItem from="1660740602721" duration="16074000" />
       <workItem from="1660805574590" duration="11873000" />
       <workItem from="1660903919678" duration="11119000" />
-      <workItem from="1660997019930" duration="7534000" />
+      <workItem from="1660997019930" duration="9425000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
       <created>1660833380376</created>
@@ -303,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661002053780</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add change currency feature">
+      <created>1661111556642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661111556642</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add change currency feature">
+      <created>1661111568169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661111568169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +342,7 @@
     <MESSAGE value="Add search item with auto complete feature" />
     <MESSAGE value="Add email a friend feature, where user can send a product to other persons" />
     <MESSAGE value="commit missed features" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit missed features" />
+    <MESSAGE value="Add change currency feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add change currency feature" />
   </component>
 </project>

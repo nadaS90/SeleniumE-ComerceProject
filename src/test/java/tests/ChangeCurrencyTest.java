@@ -32,7 +32,7 @@ public class ChangeCurrencyTest extends TestBase {
             Assert.assertTrue((itemsObject.crncyType.getText().contains("€")));
             System.out.println(itemsObject.crncyType.getText());
         } catch (Exception e) {
-            System.out.println("Wehave error " + e.getMessage());
+            System.out.println("We have error " + e.getMessage());
         }
 
     }

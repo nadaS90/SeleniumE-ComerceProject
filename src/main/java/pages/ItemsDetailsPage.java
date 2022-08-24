@@ -19,6 +19,8 @@ public class ItemsDetailsPage extends PageBase{
     @FindBy(id = "price-value-4")
     public WebElement crncyType;
 
+    @FindBy // add link to add review page
+
 
     public void emailProductToAFriend()
     {

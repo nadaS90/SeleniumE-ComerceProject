@@ -4,13 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.*;
 
-public class EmailProductToFriendTest extends TestBase
+public class ProductReviewPageTest extends TestBase
 {
     HomePage homeObject ;
     RegistrationPage rgstrObject;
     SearchItmPage searchObject;
     ItemsDetailsPage itemsObject;
-    EmailProductToFriend emailObject;
+    ProductReviewPage reviewObject;
 
 
     String firstName = "Nada" ;
@@ -18,8 +18,8 @@ public class EmailProductToFriendTest extends TestBase
     String email = "test@example.com" ;
     String password = "p@ssword" ;
     String producrName = "Apple MacBook Pro 13-inch";
-    String frndEmail = "test098@example.com";
-    String message = " Check this dude!";
+    String tittle = "Great";
+    String reviewBody = "The product is good";
 
     @Test(priority = 1)
     public void UserCanRegisterSuccssfully()
@@ -31,16 +31,6 @@ public class EmailProductToFriendTest extends TestBase
         Assert.assertTrue(rgstrObject.successMsg.getText().contains("Your registration completed"));
     }
 
-//    @Test(priority = 2)
-//    public void RegisteredUserCanLogin()
-//    {
-//        homeObject.openLoginPage();
-//        loginObject = new LoginPage(driver);
-//        loginObject.userLogin(email, newPswrd);
-//        Assert.assertTrue(rgstrObject.logoutLink.getText().contains("Log out"));
-//        System.out.println(rgstrObject.logoutLink.getText());
-//    }
-
     @Test(priority = 2)
     public void seachForItemsWithAutoComplete() {
 
@@ -49,22 +39,19 @@ public class EmailProductToFriendTest extends TestBase
             searchObject.productSearchWithAutoComplete("MacB");
             itemsObject = new ItemsDetailsPage(driver);
             Assert.assertTrue(itemsObject.itemName.getText().equalsIgnoreCase(producrName));
-        } catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println("Wehave error " + e.getMessage());
         }
     }
 
-    @Test (priority = 3)
-    public void userCanEmailProductToFriend()
+    @Test(priority = 3)
+    public void userCanAddRevirewToProduct()
     {
-        itemsObject.emailProductToAFriend();
+        itemsObject.
+        reviewObject = new ProductReviewPage(driver);
+        reviewObject.userSendReview(tittle, reviewBody);
+        Assert.assertTrue(reviewObject.reviewResultMsg.getText().contains("Product review is successfully added."));
 
-        emailObject = new EmailProductToFriend(driver);
-        emailObject.emailAFriendProduct(frndEmail, message);
-//        Assert.assertTrue(emailObject.myEmailTxtBox.getText().contains(email));
-//        System.out.println(emailObject.myEmailTxtBox);
-        Assert.assertTrue(emailObject.submitSucessMsg.getText().contains("Your message has been sent."));
     }
 
     @Test(priority = 4)
@@ -72,6 +59,5 @@ public class EmailProductToFriendTest extends TestBase
     {
         rgstrObject.userLogout();
     }
-
 
 }
