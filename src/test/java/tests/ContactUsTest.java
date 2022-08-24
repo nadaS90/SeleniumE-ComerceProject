@@ -11,7 +11,7 @@ public class ContactUsTest extends TestBase
     HomePage homeObject;
 
     String userName = "Test User";
-    String userEmail = "test@example.com";
+    String userEmail = "test1@example.com";
     String enquiry = "Hello Test";
 
 

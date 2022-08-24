@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
@@ -16,6 +18,7 @@ public class PageBase
     public Select select;
     //Create constructor
     // initialize the instance and set default values
+    public Actions action;
     public PageBase(WebDriver driver)
     {
         // when we have a cals with the main property and we need the property of that class to be called in this clas
@@ -41,6 +44,7 @@ public class PageBase
         // this code will let us scroll to the buttom of the page
         jse.executeScript("scrollBy(0,2500)");
     }
+
 
 
 }
