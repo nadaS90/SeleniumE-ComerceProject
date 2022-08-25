@@ -12,10 +12,10 @@ public class MyAccountTest extends TestBase
     LoginPage loginObject ;
     MyAccountPage myAccountObject ;
     String oldPswrd = "p@ssword" ;
-    String newPswrd = "pa$$word" ;
+    String newPswrd = "p@$$word" ;
     String firstName = "Nada" ;
     String lastName = "Sayed" ;
-    String email = "test3@example.com" ;
+    String email = "test30@example.com" ;
 
 
     @Test(priority=1)

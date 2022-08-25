@@ -15,7 +15,7 @@ public class ProductReviewPageTest extends TestBase
 
     String firstName = "Nada" ;
     String lastName = "Sayed" ;
-    String email = "test7@example.com" ;
+    String email = "test70@example.com" ;
     String password = "p@ssword" ;
     String producrName = "Apple MacBook Pro 13-inch";
     String tittle = "Great";

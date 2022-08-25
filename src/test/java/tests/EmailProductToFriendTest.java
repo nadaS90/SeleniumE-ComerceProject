@@ -15,7 +15,7 @@ public class EmailProductToFriendTest extends TestBase
 
     String firstName = "Nada" ;
     String lastName = "Sayed" ;
-    String email = "test2@example.com" ;
+    String email = "test20@example.com" ;
     String password = "p@ssword" ;
     String producrName = "Apple MacBook Pro 13-inch";
     String frndEmail = "test098@example.com";
