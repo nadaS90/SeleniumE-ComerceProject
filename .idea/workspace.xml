@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055b2cca-90cd-402d-ab20-b24fa87c6a5f" name="Changes" comment="add hover feature and review product">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddItemWishListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContactUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContactUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/EmailProductToFriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/EmailProductToFriendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ProductReviewPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ProductReviewPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistratinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +62,99 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ChangeCurrencyTest">
+  <component name="RunManager" selected="TestNG.AddItemWishListTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddItemWishListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddItemWishListTest.addItemToTheWishList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
+      <option name="METHOD_NAME" value="addItemToTheWishList" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddItemWishListTest.checkItemsFoundWishList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumE-ComerceProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
+      <option name="METHOD_NAME" value="checkItemsFoundWishList" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <configuration name="ChangeCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -128,90 +213,6 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailProductToFriendTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EmailProductToFriendTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MyAccountTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductReviewPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumE-ComerceProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ProductReviewPageTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -234,26 +235,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.AddItemWishListTest" />
+      <item itemvalue="TestNG.AddItemWishListTest.addItemToTheWishList" />
+      <item itemvalue="TestNG.AddItemWishListTest.checkItemsFoundWishList" />
       <item itemvalue="TestNG.ContactUsTest" />
-      <item itemvalue="TestNG.ProductReviewPageTest" />
-      <item itemvalue="TestNG.MyAccountTest" />
       <item itemvalue="TestNG.ChangeCurrencyTest" />
-      <item itemvalue="TestNG.EmailProductToFriendTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddItemWishListTest" />
+        <item itemvalue="TestNG.AddItemWishListTest.checkItemsFoundWishList" />
+        <item itemvalue="TestNG.AddItemWishListTest.addItemToTheWishList" />
         <item itemvalue="TestNG.ChangeCurrencyTest" />
         <item itemvalue="TestNG.ContactUsTest" />
-        <item itemvalue="TestNG.EmailProductToFriendTest" />
-        <item itemvalue="TestNG.MyAccountTest" />
-        <item itemvalue="TestNG.ProductReviewPageTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05af466e-70b0-4aa5-bde3-e8393e9953e8" name="Changes" comment="" />
+      <changelist id="055b2cca-90cd-402d-ab20-b24fa87c6a5f" name="Changes" comment="add hover feature and review product" />
       <created>1660651465991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -269,6 +270,7 @@
       <workItem from="1661343121056" duration="2571000" />
       <workItem from="1661411944475" duration="48000" />
       <workItem from="1661438943436" duration="3303000" />
+      <workItem from="1661680720834" duration="6779000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
       <created>1660833380376</created>

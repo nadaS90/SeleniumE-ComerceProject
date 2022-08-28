@@ -42,7 +42,6 @@ public class HomePage extends PageBase
 
 
 
-
         public void openRegistrationPage()
         {
             clickBtn(rgstrLink);
@@ -67,7 +66,7 @@ public class HomePage extends PageBase
 
     public void hoverMenu()
     {
-                action.moveToElement(hovermenu)
+        action.moveToElement(hovermenu)
                 .moveToElement(hoverDropDown).
                 click().build().perform();
     }

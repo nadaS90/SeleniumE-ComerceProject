@@ -22,6 +22,15 @@ public class ItemsDetailsPage extends PageBase{
     @FindBy(linkText = "Add your review")
     public  WebElement addyourreview;
 
+    @FindBy(id = "add-to-wishlist-button-4")
+    public WebElement addWishList;
+
+    @FindBy(css = "p.content")
+    public WebElement sucessMsgWishList;
+
+    @FindBy(css = "span.close")
+    WebElement closeMsg;
+
 
     public void emailProductToAFriend()
     {
@@ -32,4 +41,15 @@ public class ItemsDetailsPage extends PageBase{
     {
         clickBtn(addyourreview);
     }
+
+    public void usedAddItemWishList()
+    {
+        clickBtn(addWishList);
+    }
+
+    public void closeMessageWishList()
+    {
+        clickBtn(closeMsg);
+    }
+
 }
