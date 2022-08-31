@@ -29,7 +29,10 @@ public class ItemsDetailsPage extends PageBase{
     public WebElement sucessMsgWishList;
 
     @FindBy(css = "span.close")
-    WebElement closeMsg;
+   public WebElement closeMsg;
+
+    @FindBy(css = "div.compare-products")
+    WebElement compareProductBtn;
 
 
     public void emailProductToAFriend()
@@ -50,6 +53,11 @@ public class ItemsDetailsPage extends PageBase{
     public void closeMessageWishList()
     {
         clickBtn(closeMsg);
+    }
+
+    public void usedAdditemToCompare()
+    {
+        clickBtn(compareProductBtn);
     }
 
 }
