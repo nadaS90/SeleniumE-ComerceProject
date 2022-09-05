@@ -10,6 +10,8 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import utilities.Helper;
 
+import static java.lang.Thread.*;
+
 
 public class TestBase
 {
@@ -22,8 +24,7 @@ public class TestBase
     //if we have multiple browsers check name in testng file then select from list
     //need variable to start driver
     //@optional if we don't get parameter from testng file we use this value
-    public void startDriver(@Optional("chrome") String browserName)
-    {
+    public void startDriver(@Optional("chrome") String browserName) throws InterruptedException {
 
         if (browserName.equalsIgnoreCase("chrome"))
         {
@@ -49,6 +50,8 @@ public class TestBase
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
         driver.navigate().to("http://demo.nopcommerce.com/");
+        sleep(7000);
+
     }
 
     @AfterSuite

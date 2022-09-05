@@ -34,6 +34,9 @@ public class ItemsDetailsPage extends PageBase{
     @FindBy(css = "div.compare-products")
     WebElement compareProductBtn;
 
+    @FindBy(id = "add-to-cart-button-5")
+    WebElement addToCart;
+
 
     public void emailProductToAFriend()
     {
@@ -60,4 +63,6 @@ public class ItemsDetailsPage extends PageBase{
         clickBtn(compareProductBtn);
     }
 
+    public void addItemToCart()
+    {clickBtn(addToCart);}
 }

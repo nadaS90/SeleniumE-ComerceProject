@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="055b2cca-90cd-402d-ab20-b24fa87c6a5f" name="Changes" comment="Add item to wish list and remove it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CompareProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CompareProductsTest.java" afterDir="false" />
+    <list default="true" id="055b2cca-90cd-402d-ab20-b24fa87c6a5f" name="Changes" comment="compare items feature">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AddItemToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddItemToShopCartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemsDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/selenium/TAF/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/selenium/SeleniumE-ComerceProject/pom.xml&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -61,7 +63,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CompareProductsTest.CompareBetweenProducts">
+  <component name="RunManager" selected="TestNG.AddItemToShopCartTest">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="SeleniumE-ComerceProject" />
       <option name="METHOD_NAME" value="" />
@@ -70,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemWishListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddItemToShopCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -82,7 +84,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddItemToShopCartTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -98,7 +100,7 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemWishListTest.addItemToTheWishList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddItemToShopCartTest.seachForItemsWithAutoComplete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -110,8 +112,8 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
-      <option name="METHOD_NAME" value="addItemToTheWishList" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddItemToShopCartTest" />
+      <option name="METHOD_NAME" value="seachForItemsWithAutoComplete" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -127,7 +129,7 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddItemWishListTest.checkItemsFoundWishList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangeCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumE-ComerceProject" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -139,10 +141,9 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddItemWishListTest" />
-      <option name="METHOD_NAME" value="checkItemsFoundWishList" />
+      <option name="MAIN_CLASS_NAME" value="tests.ChangeCurrencyTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -235,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AddItemWishListTest" />
-      <item itemvalue="TestNG.AddItemWishListTest.addItemToTheWishList" />
-      <item itemvalue="TestNG.AddItemWishListTest.checkItemsFoundWishList" />
+      <item itemvalue="TestNG.AddItemToShopCartTest" />
+      <item itemvalue="TestNG.AddItemToShopCartTest.seachForItemsWithAutoComplete" />
+      <item itemvalue="TestNG.ChangeCurrencyTest" />
       <item itemvalue="TestNG.CompareProductsTest" />
       <item itemvalue="TestNG.CompareProductsTest.CompareBetweenProducts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddItemToShopCartTest" />
+        <item itemvalue="TestNG.ChangeCurrencyTest" />
+        <item itemvalue="TestNG.AddItemToShopCartTest.seachForItemsWithAutoComplete" />
         <item itemvalue="TestNG.CompareProductsTest.CompareBetweenProducts" />
         <item itemvalue="TestNG.CompareProductsTest" />
-        <item itemvalue="TestNG.AddItemWishListTest" />
-        <item itemvalue="TestNG.AddItemWishListTest.checkItemsFoundWishList" />
-        <item itemvalue="TestNG.AddItemWishListTest.addItemToTheWishList" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +272,10 @@
       <workItem from="1661411944475" duration="48000" />
       <workItem from="1661438943436" duration="3303000" />
       <workItem from="1661680720834" duration="11175000" />
-      <workItem from="1661954185268" duration="2560000" />
+      <workItem from="1661954185268" duration="2815000" />
+      <workItem from="1662029750844" duration="4319000" />
+      <workItem from="1662035386784" duration="1855000" />
+      <workItem from="1662377555294" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Add screenshots on failure TCs">
       <created>1660833380376</created>
@@ -343,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661688675674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="compare items feature">
+      <created>1661959896303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661959896303</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +381,7 @@
     <MESSAGE value="Add change currency feature" />
     <MESSAGE value="add hover feature and review product" />
     <MESSAGE value="Add item to wish list and remove it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add item to wish list and remove it" />
+    <MESSAGE value="compare items feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="compare items feature" />
   </component>
 </project>
